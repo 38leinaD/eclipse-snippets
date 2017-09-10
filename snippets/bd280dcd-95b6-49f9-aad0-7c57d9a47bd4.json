@@ -1,0 +1,13 @@
+{
+  "uuid": "bd280dcd-95b6-49f9-aad0-7c57d9a47bd4",
+  "name": "jacoco",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\u003cplugin\u003e\n\t\u003cgroupId\u003eorg.jacoco\u003c/groupId\u003e\n\t\u003cartifactId\u003ejacoco-maven-plugin\u003c/artifactId\u003e\n\t\u003cversion\u003e0.7.9\u003c/version\u003e\n\t\u003cexecutions\u003e\n\t\t\u003cexecution\u003e\n\t\t\t\u003cgoals\u003e\n\t\t\t\t\u003cgoal\u003eprepare-agent\u003c/goal\u003e\n\t\t\t\u003c/goals\u003e\n\t\t\u003c/execution\u003e\n\t\t\u003cexecution\u003e\n\t\t\t\u003cid\u003ereport\u003c/id\u003e\n\t\t\t\u003cphase\u003eprepare-package\u003c/phase\u003e\n\t\t\t\u003cgoals\u003e\n\t\t\t\t\u003cgoal\u003ereport\u003c/goal\u003e\n\t\t\t\u003c/goals\u003e\n\t\t\u003c/execution\u003e\n\t\u003c/executions\u003e\n\u003c/plugin\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

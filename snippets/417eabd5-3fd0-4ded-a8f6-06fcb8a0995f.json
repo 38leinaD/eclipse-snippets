@@ -1,0 +1,13 @@
+{
+  "uuid": "417eabd5-3fd0-4ded-a8f6-06fcb8a0995f",
+  "name": "arquillian-weld",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.jboss.arquillian.container\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003earquillian-weld-ee-embedded-1.1\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e1.0.0.CR9\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.jboss.weld\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003eweld-core\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.3.5.Final\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.jboss.arquillian.junit\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003earquillian-junit-container\u003c/artifactId\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

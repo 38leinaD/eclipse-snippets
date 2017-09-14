@@ -1,0 +1,13 @@
+{
+  "uuid": "679682c4-c8bd-4fd0-b718-d5c13a3b2b3e",
+  "name": "arquillian",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\u003cdependency\u003e\n\t\t\t\t\u003cgroupId\u003eorg.jboss.arquillian\u003c/groupId\u003e\n\t\t\t\t\u003cartifactId\u003earquillian-bom\u003c/artifactId\u003e\n\t\t\t\t\u003cversion\u003e1.1.13.Final\u003c/version\u003e\n\t\t\t\t\u003cscope\u003eimport\u003c/scope\u003e\n\t\t\t\t\u003ctype\u003epom\u003c/type\u003e\n\t\t\t\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

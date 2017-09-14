@@ -1,0 +1,13 @@
+{
+  "uuid": "e9159ed7-14f7-4ced-abeb-93bfa364fafe",
+  "name": "pomprops",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\t\u003cproperties\u003e\n\t\t\u003cmaven.compiler.source\u003e1.8\u003c/maven.compiler.source\u003e\n\t\t\u003cmaven.compiler.target\u003e1.8\u003c/maven.compiler.target\u003e\n\t\t\u003cfailOnMissingWebXml\u003efalse\u003c/failOnMissingWebXml\u003e\n\t\u003c/properties\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

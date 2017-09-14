@@ -1,0 +1,13 @@
+{
+  "uuid": "fe11f990-1199-400b-b799-cf9252b2d8df",
+  "name": "junit4",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003ejunit\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejunit\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e4.12\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

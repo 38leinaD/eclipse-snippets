@@ -1,0 +1,22 @@
+{
+  "uuid": "b725971a-b2cd-42c0-8545-acb6dc46f52d",
+  "name": "arquillian-deployment",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "@Deployment\npublic static WebArchive create() {\n\treturn ShrinkWrap.create(WebArchive.class).\n\t\t\taddClasses().\n\t\t\taddAsWebInfResource(EmptyAsset.INSTANCE, \"beans.xml\");\n\t\t\t\n}\n${:import(org.jboss.arquillian.container.test.api.Deployment, org.jboss.shrinkwrap.api.ShrinkWrap, org.jboss.shrinkwrap.api.asset.EmptyAsset, org.jboss.shrinkwrap.api.spec.WebArchive)}${cursor}\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "org.jboss.shrinkwrap",
+      "artifactId": "shrinkwrap-api",
+      "version": "0.0.0"
+    },
+    {
+      "groupId": "org.jboss.arquillian.container",
+      "artifactId": "arquillian-container-test-api",
+      "version": "0.0.0"
+    }
+  ]
+}

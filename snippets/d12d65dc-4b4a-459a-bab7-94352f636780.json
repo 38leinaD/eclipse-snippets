@@ -1,0 +1,13 @@
+{
+  "uuid": "d12d65dc-4b4a-459a-bab7-94352f636780",
+  "name": "arquillian-graphene-dep",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.jboss.arquillian.graphene\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003egraphene-webdriver\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.1.0.Final\u003c/version\u003e\n\t\t\t\u003ctype\u003epom\u003c/type\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

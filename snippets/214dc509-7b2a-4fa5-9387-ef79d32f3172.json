@@ -1,0 +1,13 @@
+{
+  "uuid": "214dc509-7b2a-4fa5-9387-ef79d32f3172",
+  "name": "mockito2",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.mockito\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003emockito-core\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.10.0\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

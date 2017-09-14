@@ -1,0 +1,13 @@
+{
+  "uuid": "710ce2fe-75b5-443c-b2a6-ce1a9ece753c",
+  "name": "arquillian-graphene-depm",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\u003c!-- https://docs.jboss.org/author/display/ARQ/Drone --\u003e\n\t\t\t\u003cdependency\u003e\n\t\t\t\t\u003cgroupId\u003eorg.jboss.arquillian.extension\u003c/groupId\u003e\n\t\t\t\t\u003cartifactId\u003earquillian-drone-bom\u003c/artifactId\u003e\n\t\t\t\t\u003cversion\u003e2.0.1.Final\u003c/version\u003e\n\t\t\t\t\u003ctype\u003epom\u003c/type\u003e\n\t\t\t\t\u003cscope\u003eimport\u003c/scope\u003e\n\t\t\t\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

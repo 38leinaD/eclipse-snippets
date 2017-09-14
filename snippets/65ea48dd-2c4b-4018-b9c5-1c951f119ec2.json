@@ -1,0 +1,13 @@
+{
+  "uuid": "65ea48dd-2c4b-4018-b9c5-1c951f119ec2",
+  "name": "arquillian-wildfly-remote",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\u003cdependency\u003e\n    \u003cgroupId\u003eorg.wildfly.arquillian\u003c/groupId\u003e\n    \u003cartifactId\u003ewildfly-arquillian-container-remote\u003c/artifactId\u003e\n    \u003cversion\u003e2.0.0.Final\u003c/version\u003e\n    \u003cscope\u003etest\u003c/scope\u003e\n\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

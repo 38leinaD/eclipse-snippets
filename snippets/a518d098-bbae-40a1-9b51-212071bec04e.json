@@ -1,0 +1,13 @@
+{
+  "uuid": "a518d098-bbae-40a1-9b51-212071bec04e",
+  "name": "weldse",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.jboss.weld.se\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003eweld-se-core\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1.Final\u003c/version\u003e\n\t\t\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

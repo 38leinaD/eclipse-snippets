@@ -1,0 +1,13 @@
+{
+  "uuid": "58ce9c7c-8d16-4d49-a447-410bbeff1c28",
+  "name": "jee8",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\t\u003cdependency\u003e\n\t\t\u003cgroupId\u003ejavax\u003c/groupId\u003e\n\t\t\u003cartifactId\u003ejavaee-api\u003c/artifactId\u003e\n\t\t\u003cversion\u003e8.0\u003c/version\u003e\n\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

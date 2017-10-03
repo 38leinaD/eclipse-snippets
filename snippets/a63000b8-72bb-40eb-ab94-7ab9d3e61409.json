@@ -1,0 +1,13 @@
+{
+  "uuid": "a63000b8-72bb-40eb-ab94-7ab9d3e61409",
+  "name": "jee8-impl",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\u003cdependency\u003e\n    \u003cgroupId\u003eorg.glassfish.main.extras\u003c/groupId\u003e\n    \u003cartifactId\u003eglassfish-embedded-all\u003c/artifactId\u003e\n    \u003cversion\u003e5.0\u003c/version\u003e\n    \u003cscope\u003etest\u003c/scope\u003e\n\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,11 @@
+{
+  "uuid": "9ab21e89-9aee-4b88-8c05-6fca523bf0e4",
+  "name": "sse-server-resource",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "private SseBroadcaster ${broadcaster:newName(javax.ws.rs.sse.SseBroadcaster)};\nprivate Sse ${sse:newName(javax.ws.rs.sse.Sse)};\n\n@GET\n@Produces(MediaType.SERVER_SENT_EVENTS)\npublic void register(@Context Sse ${sse1:newName(javax.ws.rs.sse.Sse)}, @Context SseEventSink ${eventSink:newName(javax.ws.rs.sse.SseEventSink)}) {\n\tthis.${sse} \u003d ${sse1};\n\tif (${broadcaster} \u003d\u003d null) {\n\t\tthis.${broadcaster} \u003d ${sse1}.newBroadcaster();\n\t}\n\tthis.${broadcaster}.register(${eventSink});\n}\n\n@Schedule(second \u003d \"*/2\", minute \u003d \"*\", hour \u003d \"*\")\npublic void tick() {\n\tSystem.out.println(\".\");\n\tif (${broadcaster} !\u003d null) {\n\t\tthis.${broadcaster}.broadcast(this.${sse}.newEvent(\"time: \" + System.currentTimeMillis()));\n\t}\n}\n${:import(javax.ejb.Schedule, javax.ws.rs.GET, javax.ws.rs.Produces, javax.ws.rs.core.Context, javax.ws.rs.core.MediaType, javax.ws.rs.sse.Sse, javax.ws.rs.sse.SseBroadcaster, javax.ws.rs.sse.SseEventSink)}${cursor}\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

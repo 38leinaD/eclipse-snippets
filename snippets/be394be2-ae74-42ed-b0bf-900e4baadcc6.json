@@ -1,0 +1,13 @@
+{
+  "uuid": "be394be2-ae74-42ed-b0bf-900e4baadcc6",
+  "name": "jersey-client-deps",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish.jersey.core\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejersey-client\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.26\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish.jersey.media\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejersey-media-json-processing\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.26\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003c!--\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish.jersey.media\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejersey-media-sse\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.26\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish.jersey.inject\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejersey-hk2\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.26\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t--\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

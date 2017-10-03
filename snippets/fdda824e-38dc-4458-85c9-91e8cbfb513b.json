@@ -1,0 +1,13 @@
+{
+  "uuid": "fdda824e-38dc-4458-85c9-91e8cbfb513b",
+  "name": "jee7-impl",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\u003cdependency\u003e\n    \u003cgroupId\u003eorg.glassfish.main.extras\u003c/groupId\u003e\n    \u003cartifactId\u003eglassfish-embedded-all\u003c/artifactId\u003e\n    \u003cversion\u003e4.1.2\u003c/version\u003e\n    \u003cscope\u003etest\u003c/scope\u003e\n\u003c/dependency\u003e\n",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

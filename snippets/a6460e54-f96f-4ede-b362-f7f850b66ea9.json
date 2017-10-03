@@ -1,0 +1,13 @@
+{
+  "uuid": "a6460e54-f96f-4ede-b362-f7f850b66ea9",
+  "name": "bean-validation-client-deps",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.hibernate.validator\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ehibernate-validator\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e6.0.2.Final\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.el\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1-b08\u003c/version\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,13 @@
+{
+  "uuid": "1ab3aaf9-66fd-40bf-8745-11d31da31231",
+  "name": "integration-tests-gradle",
+  "description": "seperation between unit- and integration-tests",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "test {\n\tfilter {\n\t\tinclude \"**/*Test\"\n\t}\n\tsystemProperty \u0027arquillian.launch\u0027, \u0027arquillian-wildfly-managed\u0027\n}\n\ntask itest( type: Test ) {\n\tinclude \u0027**/*IT*\u0027\n}\ncheck.dependsOn itest\nitest.mustRunAfter test",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "build.gradle"
+  ],
+  "dependencies": []
+}

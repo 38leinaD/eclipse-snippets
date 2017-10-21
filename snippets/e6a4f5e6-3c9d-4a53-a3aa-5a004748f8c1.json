@@ -1,0 +1,13 @@
+{
+  "uuid": "e6a4f5e6-3c9d-4a53-a3aa-5a004748f8c1",
+  "name": "arquillian-xml",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003carquillian xmlns\u003d\"http://jboss.org/schema/arquillian\"\n\txmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:schemaLocation\u003d\"http://www.jboss.org/schema/arquillian http://www.jboss.org/schema/arquillian/arquillian_1_0.xsd\"\u003e\n\t\u003cdefaultProtocol type\u003d\"Servlet 3.0\" /\u003e\n\t\u003cengine\u003e\n\t\t\u003cproperty name\u003d\"deploymentExportPath\"\u003ebuild/deployments\u003c/property\u003e\n\t\u003c/engine\u003e\n\t\u003ccontainer qualifier\u003d\"arquillian-wildfly-managed\" default\u003d\"true\"\u003e\n\t\t\u003cconfiguration\u003e\n\t\t\t\u003c!-- property name\u003d\"jbossHome\"\u003e$${env.JBOSS_HOME_TEST}\u003c/property --\u003e\n\t\t\t\u003cproperty name\u003d\"jbossHome\"\u003e/home/daniel/dev/app-servers/jboss-eap-7.0-test\u003c/property\u003e\n\t\t\t\u003cproperty name\u003d\"serverConfig\"\u003e$${jboss.server.config.file.name:standalone-full.xml}\u003c/property\u003e\n\t\t\t\u003cproperty name\u003d\"allowConnectingToRunningServer\"\u003etrue\u003c/property\u003e\n\t\t\u003c/configuration\u003e\n\t\u003c/container\u003e\n\t\u003c!-- Start JBoss manually via:\n\t\t./standalone.sh -Djboss.socket.binding.port-offset\u003d100 -server-config\u003dstandalone-full.xml\n\t --\u003e\n\t\u003ccontainer qualifier\u003d\"arquillian-wildfly-remote\"\u003e\n\t\t\u003cconfiguration\u003e\n\t\t\t\u003cproperty name\u003d\"managementPort\"\u003e10090\u003c/property\u003e\n\t\t\u003c/configuration\u003e\n\t\u003c/container\u003e\n\u003c/arquillian\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "arquillian.xml"
+  ],
+  "dependencies": []
+}

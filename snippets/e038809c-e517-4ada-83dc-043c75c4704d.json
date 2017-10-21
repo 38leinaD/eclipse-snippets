@@ -1,0 +1,13 @@
+{
+  "uuid": "e038809c-e517-4ada-83dc-043c75c4704d",
+  "name": "java8-gradle",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "sourceCompatibility \u003d 1.8\ntargetCompatibility \u003d 1.8",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "build.gradle"
+  ],
+  "dependencies": []
+}

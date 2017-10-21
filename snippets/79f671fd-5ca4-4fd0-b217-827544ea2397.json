@@ -1,0 +1,13 @@
+{
+  "uuid": "79f671fd-5ca4-4fd0-b217-827544ea2397",
+  "name": "jee7-gradle",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "compile \u0027javax:javaee-api:7.0\u0027",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "build.gradle"
+  ],
+  "dependencies": []
+}

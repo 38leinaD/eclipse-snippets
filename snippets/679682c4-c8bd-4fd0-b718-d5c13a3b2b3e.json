@@ -1,6 +1,6 @@
 {
   "uuid": "679682c4-c8bd-4fd0-b718-d5c13a3b2b3e",
-  "name": "arquillian",
+  "name": "arquillian-bom-maven",
   "description": "",
   "extraSearchTerms": [],
   "tags": [],

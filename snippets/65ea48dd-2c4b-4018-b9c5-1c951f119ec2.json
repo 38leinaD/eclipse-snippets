@@ -1,6 +1,6 @@
 {
   "uuid": "65ea48dd-2c4b-4018-b9c5-1c951f119ec2",
-  "name": "arquillian-wildfly-remote",
+  "name": "arquillian-wildfly-remote-dep-maven",
   "description": "",
   "extraSearchTerms": [],
   "tags": [],

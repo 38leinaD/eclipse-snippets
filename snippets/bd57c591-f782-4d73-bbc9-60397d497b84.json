@@ -1,0 +1,13 @@
+{
+  "uuid": "bd57c591-f782-4d73-bbc9-60397d497b84",
+  "name": "test-deps-gradle",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "\ttestCompile \u0027junit:junit:4.12\u0027\n\ttestCompile \u0027org.mockito:mockito-core:2.10.0\u0027",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "build.gradle"
+  ],
+  "dependencies": []
+}

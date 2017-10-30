@@ -4,7 +4,7 @@
   "description": "",
   "extraSearchTerms": [],
   "tags": [],
-  "code": "dependencies {\n\ttestCompile \"org.jboss.arquillian.junit:arquillian-junit-container:1.1.4.Final\"\n\ttestRuntime \"org.wildfly:wildfly-arquillian-container-managed:8.0.0.Final\"\n\ttestRuntime \"org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.1.4.Final\"\n}\n\ntest {\n\tsystemProperty \u0027arquillian.launch\u0027, \u0027arquillian-wildfly-managed\u0027\n}",
+  "code": "dependencies {\n\ttestCompile \"org.jboss.arquillian.junit:arquillian-junit-container:1.1.4.Final\"\n\ttestRuntime \"org.wildfly:wildfly-arquillian-container-managed:8.0.0.Final\"\n\ttestRuntime \"org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.1.4.Final\"\n\n\t// maven-resolver\n\t//testCompile \"org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:3.0.0-beta-2\"\n\t// gradle-resolver\n\t//testCompile \"org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-gradle-depchain:3.0.0-beta-2\"\n\t//testCompile \"org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-gradle:3.0.0-beta-2\"\n}\n\ntest {\n\tsystemProperty \u0027arquillian.launch\u0027, \u0027arquillian-wildfly-managed\u0027\n}",
   "location": "GENERIC_FILE",
   "filenameRestrictions": [
     "build.gradle"

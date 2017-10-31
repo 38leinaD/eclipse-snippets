@@ -1,0 +1,11 @@
+{
+  "uuid": "2d7191b0-7cec-410a-965f-8f51fb42ea43",
+  "name": "sse-client",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "Client ${client:newName(javax.ws.rs.client.Client)} \u003d ClientBuilder.newClient();\nWebTarget ${target:newName(javax.ws.rs.client.WebTarget)} \u003d ${client}.target(\"http://localhost:8080/sse/resources/sse\");\nSseEventSource ${es:newName(javax.ws.rs.sse.SseEventSource)} \u003d SseEventSource.target(${target}).reconnectingEvery(5, TimeUnit.SECONDS).build();\n${es}.register(System.out::println);\n${es}.open();\n\nSystem.out.println(\"++ Connected to SSE source...\");\ntry {\n\tThread.sleep(25_000);\n} catch (InterruptedException ${ie:newName(java.lang.InterruptedException)}) {\n\tSystem.err.println(\"Exception: \" + ${ie}.getMessage());\n}\n${es}.close();\nSystem.out.println(\"++ Closed connection to SSE source\");\n${:import(java.util.concurrent.TimeUnit, javax.ws.rs.client.Client, javax.ws.rs.client.ClientBuilder, javax.ws.rs.client.WebTarget, javax.ws.rs.sse.SseEventSource)}${cursor}\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

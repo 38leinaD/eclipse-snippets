@@ -4,7 +4,7 @@
   "description": "",
   "extraSearchTerms": [],
   "tags": [],
-  "code": "compile \u0027javax:javaee-api:7.0\u0027",
+  "code": "compileOnly \u0027javax:javaee-api:7.0\u0027",
   "location": "GENERIC_FILE",
   "filenameRestrictions": [
     "build.gradle"

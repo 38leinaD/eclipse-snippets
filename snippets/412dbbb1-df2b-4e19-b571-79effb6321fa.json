@@ -1,0 +1,11 @@
+{
+  "uuid": "412dbbb1-df2b-4e19-b571-79effb6321fa",
+  "name": "cors-jaxrs-filter",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "@Provider\npublic class CorsFilter implements ContainerResponseFilter{\n\n\t@Override\n\tpublic void filter(ContainerRequestContext ${requestContext:newName(javax.ws.rs.container.ContainerRequestContext)}, ContainerResponseContext ${responseContext:newName(javax.ws.rs.container.ContainerResponseContext)})\n\t\t\tthrows IOException {\n\t\tMultivaluedMap\u003cString,Object\u003e ${headers:newName(javax.ws.rs.core.MultivaluedMap)} \u003d ${responseContext}.getHeaders();\n\t\t${headers}.add(\"Access-Control-Allow-Origin\", \"*\");\n\t}\n\n}\n${:import(java.io.IOException, javax.ws.rs.container.ContainerRequestContext, javax.ws.rs.container.ContainerResponseContext, javax.ws.rs.container.ContainerResponseFilter, javax.ws.rs.core.MultivaluedMap, javax.ws.rs.ext.Provider)}${cursor}\n",
+  "location": "FILE",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

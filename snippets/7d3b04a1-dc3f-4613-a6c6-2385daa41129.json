@@ -1,0 +1,13 @@
+{
+  "uuid": "7d3b04a1-dc3f-4613-a6c6-2385daa41129",
+  "name": "jersey-client-deps-gradle",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "compile \u0027org.glassfish.jersey.core:jersey-client:2.26\u0027\ncompile \u0027org.glassfish.jersey.inject:jersey-hk2:2.26\u0027\n\ncompile \u0027org.glassfish.jersey.media:jersey-media-json-processing:2.26\u0027\ncompile \u0027org.glassfish.jersey.media:jersey-media-json-binding:2.26\u0027",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "build.gradle"
+  ],
+  "dependencies": []
+}

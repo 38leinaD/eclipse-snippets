@@ -1,0 +1,13 @@
+{
+  "uuid": "30ad7ea1-879a-4b22-87af-1687f35bf997",
+  "name": "jee8-api-dep-gradle",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "compileOnly \u0027javax:javaee-api:8.0\u0027",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "build.gradle"
+  ],
+  "dependencies": []
+}

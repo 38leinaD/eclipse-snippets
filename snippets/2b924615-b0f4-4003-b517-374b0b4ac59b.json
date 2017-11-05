@@ -1,0 +1,11 @@
+{
+  "uuid": "2b924615-b0f4-4003-b517-374b0b4ac59b",
+  "name": "jaxrs-client",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "Client ${client:newName(javax.ws.rs.client.Client)} \u003d ClientBuilder.newClient();\nWebTarget ${target:newName(javax.ws.rs.client.WebTarget)} \u003d ${client}.target(\"http://localhost:8080/todos/resources/hello\");\nResponse ${response:newName(javax.ws.rs.core.Response)} \u003d ${target}.request(MediaType.TEXT_PLAIN).get();\n\nassertThat(${response}.readEntity(String.class), startsWith(\"hello@\"));\n${:import(javax.ws.rs.client.Client, javax.ws.rs.client.ClientBuilder, javax.ws.rs.client.WebTarget, javax.ws.rs.core.MediaType, javax.ws.rs.core.Response)}\n${impst:importStatic(org.hamcrest.CoreMatchers.startsWith, org.junit.Assert.assertThat)}\n${cursor}\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

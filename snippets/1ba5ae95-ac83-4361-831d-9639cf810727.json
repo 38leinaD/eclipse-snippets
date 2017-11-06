@@ -4,7 +4,7 @@
   "description": "",
   "extraSearchTerms": [],
   "tags": [],
-  "code": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cpersistence version\u003d\"2.1\"\n\txmlns\u003d\"http://xmlns.jcp.org/xml/ns/persistence\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd\"\u003e\n\t\u003cpersistence-unit name\u003d\"default\"\u003e\n\t\t\u003cjta-data-source\u003ejdbc/__default\u003c/jta-data-source\u003e\n\t\t\u003cproperties\u003e\n\t\t\t\u003cproperty name\u003d\"javax.persistence.schema-generation.database.action\"\n\t\t\t\tvalue\u003d\"drop-and-create\" /\u003e\n\t\t\u003c/properties\u003e\n\t\u003c/persistence-unit\u003e\n\u003c/persistence\u003e\n",
+  "code": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cpersistence version\u003d\"2.1\"\n\txmlns\u003d\"http://xmlns.jcp.org/xml/ns/persistence\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd\"\u003e\n\t\u003cpersistence-unit name\u003d\"default\"\u003e\n\t\t\u003cjta-data-source\u003ejdbc/__default\u003c/jta-data-source\u003e\n\t\t\u003cproperties\u003e\n\t\t\t\u003cproperty name\u003d\"javax.persistence.schema-generation.database.action\" value\u003d\"drop-and-create\" /\u003e\n\t\t\t\u003cproperty name\u003d\"eclipselink.logging.level\" value\u003d\"FINE\"/\u003e\n\t\t\u003c/properties\u003e\n\t\u003c/persistence-unit\u003e\n\u003c/persistence\u003e\n",
   "location": "GENERIC_FILE",
   "filenameRestrictions": [
     "persistence.xml"
